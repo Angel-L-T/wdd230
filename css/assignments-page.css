@@ -13,13 +13,12 @@ footer {
 }
 
 main {
-  padding: 1.5rem 5rem;
+  padding: 1.5rem 2rem;
 }
 
 header {
   background-color: #1D691A;
   padding: 1.5rem;
-  border-radius: 20px 20px 0px 0px;
 }
 
 footer {
@@ -27,13 +26,12 @@ footer {
   padding: 1.5rem;
   text-align: center;
   color: whitesmoke;
-  border-radius: 0px 0px 20px 20px;
 }
 
 img {
-  float: right;
   box-shadow: 5px 5px 10px black;
   max-width: 150px;
+  margin: 1em;
 }
 
 h1 {
