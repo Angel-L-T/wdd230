@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+    font-family: "Poopins", sans-serif;
+    font-size: 18px;
+}
+
+header {
+    background-color: #006DA8;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: "Oswald", sans-serif;
+}
+
+header h3 {
+    margin: 0 auto;
+    color: whitesmoke;
+    text-shadow: black 2px 2px;
+    padding: 1.5rem;
+    padding-top: 0;
+}
+
+header img {
+    max-width: 300px;
+    padding: 0.5rem;
+}
+
+nav ul{
+    background-color: #00b4d8;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+nav ul li {
+    color: whitesmoke;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+nav ul li:hover {
+    background-color: #006da8;
+}
+
+nav ul li a:hover {
+color: #e5f601;
+}
+
+.responsive-nav li:first-child {
+	display: block;
+}
+.responsive-nav li {
+	display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+p {
+font-family: "Poppins", sans-serif;
+}
+
+main {
+    padding: 1.5rem;
+}
+
+div {
+    padding: 1rem;
+    background-color: #CAF0F8;
+    margin: 1rem;
+    border: 3px dotted darkgray;
+}
+
+footer {
+    background-color: #006DA8;
+    color: whitesmoke;
+    padding: 1.5rem;
+    text-align: center;
+}
+

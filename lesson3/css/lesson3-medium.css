@@ -2,4 +2,13 @@
   nav ul {
     display: flex;
   }
+
+  nav ul li {
+    flex-grow: 1;
+  }
+
+  .typo-images {
+    display: block;
+    margin: 0 auto;
+  }
 }
