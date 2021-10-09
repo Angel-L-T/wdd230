@@ -2,96 +2,97 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-    font-family: "Poopins", sans-serif;
-    font-size: 14px;
+  font-family: "Poopins", sans-serif;
+  font-size: 14px;
 }
 
 header {
-    background-color: #006DA8;
-    text-align: center;
+  background-color: #006da8;
+  text-align: center;
 }
 
-h1, h2, h3 {
-    font-family: "Oswald", sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
 }
 
 header h3 {
-    font-size: 20;
-    margin: 0 auto;
-    color: whitesmoke;
-    text-shadow: black 2px 2px;
-    padding: 1.5rem;
-    padding-top: 0;
+  font-size: 20;
+  margin: 0 auto;
+  color: whitesmoke;
+  text-shadow: black 2px 2px;
+  padding: 1.5rem;
+  padding-top: 0;
 }
 
 header img {
-    max-width: 300px;
-    padding: 0.5rem;
+  max-width: 300px;
+  padding: 0.5rem;
 }
 
-nav ul{
-    background-color: #00b4d8;
-    padding: 0;
-    margin: 0 auto;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+nav ul {
+  background-color: #00b4d8;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 nav ul li {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 nav ul li a {
-    display: block;
-    text-decoration: none;
-    color: whitesmoke;
-    padding: 1rem;
+  display: block;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 1rem;
 }
 
 .active {
-    background-color: #006da8;
+  background-color: #006da8;
 }
 
 nav ul li:hover {
-    background-color: #006da8;
+  background-color: #006da8;
 }
 
 nav ul li a:hover {
-color: #e5f601;
+  color: #e5f601;
 }
 
 .responsive-nav li:first-child {
-	display: block;
+  display: block;
 }
 .responsive-nav li {
-	display: none;
+  display: none;
 }
 
 .responsive li {
-    display: block;
+  display: block;
 }
 
 p {
-font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 main {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 div {
-    padding: 1rem;
-    background-color: #CAF0F8;
-    margin: 1rem;
-    border: 3px dotted darkgray;
+  padding: 1rem;
+  background-color: #caf0f8;
+  margin: 1rem;
+  border: 3px dotted darkgray;
 }
 
 footer {
-    background-color: #006DA8;
-    color: whitesmoke;
-    padding: 1.5rem;
-    text-align: center;
+  background-color: #006da8;
+  color: whitesmoke;
+  padding: 1.5rem;
+  text-align: center;
 }
-
