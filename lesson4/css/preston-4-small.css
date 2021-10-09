@@ -17,6 +17,12 @@ h3 {
   font-family: "Oswald", sans-serif;
 }
 
+h1 {
+	color: #03045e;
+	margin: 1rem;
+	padding: 1rem;
+}
+
 header h3 {
   font-size: 20;
   margin: 0 auto;
