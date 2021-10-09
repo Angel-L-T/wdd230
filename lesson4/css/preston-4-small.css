@@ -3,7 +3,7 @@
 
 body {
     font-family: "Poopins", sans-serif;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 header {
@@ -16,6 +16,7 @@ h1, h2, h3 {
 }
 
 header h3 {
+    font-size: 20;
     margin: 0 auto;
     color: whitesmoke;
     text-shadow: black 2px 2px;
@@ -47,6 +48,10 @@ nav ul li a {
     text-decoration: none;
     color: whitesmoke;
     padding: 1rem;
+}
+
+.active {
+    background-color: #006da8;
 }
 
 nav ul li:hover {
