@@ -1,0 +1,261 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+
+/*Preston page and initial CSS*/
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+
+/*Start Special Announcement*/
+.announcement {
+  display: none;
+}
+
+.is-friday {
+  display: block;
+}
+
+.announcement p {
+  background-color: #e5f601;
+  margin: 0;
+  padding: 1.5rem;
+}
+/*End Special Announcement*/
+
+header {
+  background-color: #006da8;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+h1,
+h2 {
+  color: #006da8;
+}
+
+h1 {
+  color: #03045e;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+header h3 {
+  font-size: 20px;
+  margin: 0 auto;
+  color: whitesmoke;
+  text-shadow: black 2px 2px;
+  padding: 1.5rem;
+  padding-top: 0;
+}
+
+header img {
+  max-width: 300px;
+  padding: 0.5rem;
+}
+
+/*Everything about the nav until line 87*/
+
+nav ul {
+  background-color: #00b4d8;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+nav ul li {
+  color: whitesmoke;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 1rem;
+}
+
+.active {
+  background-color: #006da8;
+}
+
+nav ul li:hover {
+  background-color: #006da8;
+}
+
+nav ul li a:hover {
+  color: #e5f601;
+}
+
+.responsive-nav li:first-child {
+  display: block;
+}
+.responsive-nav li {
+  display: none;
+}
+
+.responsive li {
+  display: block;
+}
+/*End of nav*/
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  padding-top: 1.5rem;
+}
+
+/*Start of preston hero section*/
+.preston-hero {
+  position: relative;
+}
+
+.preston-hero img {
+  width: 100%;
+}
+
+.weather-summary {
+  padding: 1rem;
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: rgba(0, 180, 216, 0.7);
+  font-size: 16px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  position: absolute;
+  top: 25px;
+  right: 5%;
+}
+.weather-summary p {
+  margin: 0;
+}
+
+.weather-summary h3 {
+  font-size: 24px;
+  padding: 0.5rem 0;
+  margin: 0 0 0.5rem 0;
+  text-shadow: black 2px 2px;
+  border-bottom: whitesmoke solid;
+  color: whitesmoke;
+  grid-column: 1 / 3;
+}
+
+.info-name,
+.actual-info {
+  padding: 0 0.5rem;
+}
+
+.info-name {
+  text-align: right;
+}
+
+.actual-info {
+  color: #e5f601;
+}
+
+/*End of preston hero section*/
+
+/*Star of preston five day forecast*/
+
+.five-day {
+  margin: 0 5rem;
+  text-align: center;
+  display: none;
+}
+
+.forecast-info {
+  display: none;
+}
+
+.forecast-image img {
+  max-width: 50px;
+  padding: 0.25rem;
+}
+
+.forecast-day {
+  color: whitesmoke;
+  background-color: #006da8;
+}
+
+.forecast-day,
+.forecast-temperature,
+.forecast-image {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-content: center;
+  justify-items: center;
+}
+
+.forecast-day p,
+.forecast-temperature p {
+  margin: 0;
+}
+
+/*End of preston five day forecast*/
+
+/*Start of preston article*/
+.preston-article {
+  background-color: #caf0f8;
+  padding: 2rem;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+}
+
+.preston-article img {
+  max-width: 250px;
+  margin: 0;
+  box-shadow: black 7px 7px 20px 3px;
+}
+/*End of preston article*/
+
+/*Start of contact info section*/
+.contact-info {
+  background-color: #00b4d8;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+
+  align-items: center;
+}
+
+.map-img {
+  display: none;
+}
+
+.contact p img {
+  max-width: 1.2rem;
+}
+
+.contact p {
+  margin: 0;
+}
+
+.social {
+  margin-top: 1.5rem;
+}
+
+.social img {
+  max-width: 48px;
+  padding: 0 0.25rem;
+}
+/*Start of contact info section*/
+
+footer {
+  background-color: #006da8;
+  color: whitesmoke;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 14px;
+}

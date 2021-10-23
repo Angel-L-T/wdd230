@@ -2,23 +2,24 @@ const input = document.querySelector("input");
 const button = document.querySelector("button");
 const list = document.querySelector("ul");
 
-button.addEventListener("click", 
-    function() {
-        if (input.value != "") {
-            const listItem = document.createElement("li");
-            const buttonItem = document.createElement("button");
+button.addEventListener("click", liAdder);
+input.addEventListener("keypress", function (e) {if (e.key === 'Enter') {liAdder();} } );
 
-            listItem.textContent = input.value;
-            buttonItem.textContent = "❌";
+function liAdder() {
+    if (input.value != "") {
+        const listItem = document.createElement("li");
+        const buttonItem = document.createElement("button");
 
-            listItem.appendChild(buttonItem);
+        listItem.innerHTML = input.value;
+        buttonItem.innerHTML = "❌";
 
-            list.appendChild(listItem);
+        listItem.appendChild(buttonItem);
 
-            buttonItem.addEventListener("click", function() {list.removeChild(listItem);})
-        }
+        list.appendChild(listItem);
 
-        input.value = "";
-        input.focus();
+        buttonItem.addEventListener("click", function() {list.removeChild(listItem);})
     }
-);
+
+    input.value = "";
+    input.focus();
+};
