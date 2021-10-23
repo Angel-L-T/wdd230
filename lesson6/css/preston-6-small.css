@@ -88,6 +88,10 @@ nav ul li a {
   background-color: #006da8;
 }
 
+.active a:hover {
+  color: whitesmoke;
+}
+
 nav ul li:hover {
   background-color: #006da8;
 }
@@ -172,6 +176,7 @@ main {
 
 .five-day {
   margin: 0 5rem;
+  margin-top: 5rem;
   text-align: center;
   display: none;
 }
@@ -210,7 +215,7 @@ main {
 .preston-article {
   background-color: #caf0f8;
   padding: 2rem;
-  margin-top: 1.5rem;
+  margin-top: 5rem;
   border-radius: 10px;
 }
 
@@ -225,7 +230,7 @@ main {
 .contact-info {
   background-color: #00b4d8;
   padding: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 5rem;
 
   align-items: center;
 }
