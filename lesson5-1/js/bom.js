@@ -17,7 +17,7 @@ function liAdder() {
 
         list.appendChild(listItem);
 
-        buttonItem.addEventListener("click", function() {list.removeChild(listItem);})
+        buttonItem.addEventListener("click", function() {list.removeChild(listItem); input.focus();})
     }
 
     input.value = "";
