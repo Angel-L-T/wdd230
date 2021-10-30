@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Clear Weather | Real Time Weather</title>
+
+	<link rel="stylesheet" href="/wdd230/css/normalize.css">
+	<link rel="stylesheet" href="/wdd230/lesson7/css/preston-7-small.css">
+	<link rel="stylesheet" href="/wdd230/lesson7/css/preston-7-medium.css">
+	<link rel="stylesheet" href="/wdd230/lesson7/css/preston-7-large.css">
+</head>
+
+<body>
+	<section class="announcement">
+		<p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+	</section>
+
+	<header>
+		<img src="/wdd230/lesson7/images/clear_weather_logo2.png" alt="Clear Weather logo">
+		<h3>Weather Information Clear and Simple</h3>
+	</header>
+
+	<nav>
+		<ul class="responsive-nav">
+			<li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="/wdd230/lesson7/preston-7.html">Preston</a></li>
+			<li><a href="#">Soda Springs</a></li>
+			<li><a href="#">Fish Haven</a></li>
+			<li><a href="#">Storm Center</a></li>
+			<li class="active"><a href="/wdd230/lesson7/gallery-7.html">Gallery</a></li>
+		</ul>
+	</nav>
+
+	<main id="gallery">
+		<h1>Gallery</h1>
+		<em>
+			<p>Last visit: <span id="days-passed"></span></p>
+		</em>
+        
+        <div class="gallery">
+
+            <picture>
+                <img src="/wdd230/lesson7/images/gallery-placeholder.jpg" data-src="/wdd230/lesson7/images/gallery-clear-sky-640.jpg" alt="Beach with clear skies.">
+				<p>Clear skies at the beach.</p>
+            </picture>
+
+            <picture>
+                <img src="/wdd230/lesson7/images/gallery-placeholder.jpg" data-src="/wdd230/lesson7/images/gallery-cloudy-640.jpg" alt="Cloudy on at the farm.">
+				<p>Rain clouds in the countryside.</p>
+            </picture>
+
+            <picture>
+                <img src="/wdd230/lesson7/images/gallery-placeholder.jpg" data-src="/wdd230/lesson7/images/gallery-desertic-640.jpg" alt="Dessert with some vegetation.">
+				<p>Clouds over the desert.</p>
+            </picture>
+
+            <picture>
+                <img src="/wdd230/lesson7/images/gallery-placeholder.jpg" data-src="/wdd230/lesson7/images/gallery-foggy-640.jpg" alt="Fog in the mountains.">
+				<p>Fog covering the mountains.</p>
+            </picture>
+
+            <picture>
+                <img src="/wdd230/lesson7/images/gallery-placeholder.jpg" data-src="/wdd230/lesson7/images/gallery-rainy-640.jpg" alt="Rainy in the city.">
+				<p>Heavy rain falling in the city.</p>
+            </picture>
+
+            <picture>
+                <img src="/wdd230/lesson7/images/gallery-placeholder.jpg" data-src="/wdd230/lesson7/images/gallery-snowy-640.jpg" alt="Snowy in the city.">
+				<p>Snow covering the city streets.</p>
+            </picture>
+
+            <picture>
+                <img src="/wdd230/lesson7/images/gallery-placeholder.jpg" data-src="/wdd230/lesson7/images/gallery-spring-640.jpg" alt="Flowers near snowy mountains.">
+				<p>Flowers at the mountains foot.</p>
+            </picture>
+
+            <picture>
+                <img src="/wdd230/lesson7/images/gallery-placeholder.jpg" data-src="/wdd230/lesson7/images/gallery-sunny-640.jpg" alt="Clear skies at the farm.">
+				<p>Sunny day in the countryside.</p>
+            </picture>
+
+            <picture>
+                <img src="/wdd230/lesson7/images/gallery-placeholder.jpg" data-src="/wdd230/lesson7/images/gallery-thunderstorm-640.jpg" alt="Thunderstorm in the night.">
+				<p>Lightning flashing in the night.</p>
+            </picture>
+
+        </div>
+		
+    
+    </main>
+    
+	<footer id="gallery-footer">
+		<p>&copy;Clear Weather | Attributions | Angel Lugo Tehuitzil</p>
+		<span></span>
+	</footer>
+
+	<script src="/wdd230/lesson7/js/clear-weather.js"></script>
+	<script src="/wdd230/lesson7/js/lazyload.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script>WebFont.load({ google: {families: ["Oswald:500", "Poppins"]} });</script>
+</body>
+
+</html>
