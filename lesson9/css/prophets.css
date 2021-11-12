@@ -1,0 +1,51 @@
+/*-------------- MAIN --------------*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #1D691A;
+    margin: 1rem auto;
+}
+
+p {
+    margin: 0.5rem auto;
+}
+
+div.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+
+    padding: 1rem;
+    margin: 2rem;
+    background-color: lightgrey;
+    box-shadow: 1px 1px 20px black;
+}
+
+
+section {
+    text-align: center;
+    background-color: #B5F1B5;
+    border: solid 1px #1D691A;
+    padding: 2rem;
+}
+
+section img {
+    max-width: 70%;
+    box-shadow: 1px 1px 20px black;
+    margin: 1rem auto;
+}
+
+/*-------------- FOOTER --------------*/
+
+footer {
+    background-color: #1D691A;
+    color: whitesmoke;
+    padding: 2.5rem;
+}
