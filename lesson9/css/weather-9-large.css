@@ -1,0 +1,55 @@
+@media only screen and (min-width: 64rem) {
+  body {
+    font-size: 18px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    padding: 0 8rem;
+  }
+
+  .responsive-nav li:first-child {
+    display: none;
+  }
+  .responsive-nav li {
+    display: block;
+    flex: 1;
+  }
+
+  .weather-summary {
+    right: 68%;
+  }
+
+  /*-------------------------- GALLERY --------------------------*/
+
+  .gallery {  
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .gallery picture:hover {
+    box-shadow: 15px 15px 10px gray;
+    transition: box-shadow 0.25s;
+  }
+
+  #gallery {
+    margin: 0 5rem;
+  }
+
+  .gallery picture {
+    font-size: 1rem;
+  }
+
+  /*-------------------------- HOME PAGE --------------------------*/
+
+  #towns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: -10%;
+    margin-right: -10%;
+  }
+
+  #towns section {
+    display: block;
+    margin: 1rem;
+  }
+}

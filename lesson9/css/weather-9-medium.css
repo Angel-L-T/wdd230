@@ -1,0 +1,103 @@
+@media only screen and (min-width: 35rem) {
+  body {
+    font-size: 16px;
+  }
+
+  header img {
+    max-width: 400px;
+  }
+
+  header h3 {
+    font-size: 25px;
+  }
+
+  main {
+    max-width: 960px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .weather-summary {
+    right: 5%;
+  }
+
+  .five-day {
+    display: block;
+  }
+
+  .preston-article img {
+    float: right;
+    margin: 1.5rem;
+  }
+
+  .forecast-info {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: black solid 1px;
+  }
+
+  .contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+  }
+
+  .map-img {
+    display: block;
+    max-width: 300px;
+    justify-self: center;
+  }
+
+  footer {
+    font-size: 16px;
+  }
+
+  /*-------------------------- GALLERY --------------------------*/
+
+  .gallery { 
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #gallery {
+    margin: 0 1.5rem;
+  }
+
+  .gallery picture {
+    font-size: 0.9rem;
+  }
+
+  /*-------------------------- STORM CENTER --------------------------*/
+  form label.top textarea {
+    width: 25em;
+    height: 10em;
+  }
+
+  form input.submitBtn {
+    margin: 0 2% 2rem 2%;
+  }
+
+  form label.sbs {
+    margin-bottom: 0.5rem;
+  }
+
+  .thanks-section {
+    margin: 5rem 0;
+  }
+
+  /*-------------------------- HOME PAGE --------------------------*/
+
+  #towns section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  #towns section:nth-child(odd) div {
+    grid-column: 2;
+  }
+  
+  #towns section:nth-child(odd) img {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
