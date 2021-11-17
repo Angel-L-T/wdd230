@@ -361,6 +361,10 @@ form input.submitBtn {
 }
 
 form label.top input:required {
+  border: blue solid 2px;
+}
+
+form label.top input:not(:placeholder-shown):required {
   border: red solid 2px;
 }
 
@@ -371,4 +375,8 @@ form label.top input:required:valid {
 form label.top textarea {
   width: 15em;
   height: 15em;
+}
+
+#storm-severity {
+  padding: 0;
 }
