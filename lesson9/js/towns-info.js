@@ -25,7 +25,7 @@ fetch(requestURL)
         h3.textContent = towns[i].motto;
         p1.textContent = `Year Founded: ${towns[i].yearFounded}`;
         p2.textContent = `Population: ${towns[i].currentPopulation}`;
-        p3.textContent = `Annual Rain Fall: ${towns.averageRainfall}`;
+        p3.textContent = `Annual Rain Fall: ${towns[i].averageRainfall}`;
         img.setAttribute('src', `/wdd230/lesson9/images/${towns[i].photo}`);
         img.setAttribute('alt', `${towns[i].name} photo.`);
 
