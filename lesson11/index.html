@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Clear Weather | Real Time Weather</title>
+
+	<link rel="shortcut icon" href="/wdd230/clear-favicon.ico">
+	<link rel="stylesheet" href="/wdd230/css/normalize.css">
+	<link rel="stylesheet" href="/wdd230/lesson11/css/weather-small.css">
+	<link rel="stylesheet" href="/wdd230/lesson11/css/weather-medium.css">
+	<link rel="stylesheet" href="/wdd230/lesson11/css/weather-large.css">
+</head>
+
+<body>
+	<section class="announcement">
+		<p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+	</section>
+
+	<header>
+		<img src="/wdd230/lesson11/images/clear_weather_logo2.png" alt="Clear Weather logo">
+		<h3>Weather Information Clear and Simple</h3>
+	</header>
+
+	<nav>
+		<ul class="responsive-nav">
+			<li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+			<li class="active"><a href="/wdd230/lesson11/index.html">Home</a></li>
+			<li><a href="/wdd230/lesson11/preston.html">Preston</a></li>
+			<li><a href="#">Soda Springs</a></li>
+			<li><a href="#">Fish Haven</a></li>
+			<li><a href="/wdd230/lesson11/stormcenter.html">Storm Center</a></li>
+			<li><a href="/wdd230/lesson11/gallery.html">Gallery</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<h1>Home Page</h1>
+
+		<picture id="home-hero">
+			<source srcset="/wdd230/lesson11/images/home-hero-small.jpg" media="(max-width: 540px)">
+			<source srcset="/wdd230/lesson11/images/home-hero-medium.jpg" media="(max-width: 1000px)">
+			<img src="/wdd230/lesson11/images/home-hero.jpg" alt="Clear sky landscape photo">
+		</picture>
+
+        <div id="towns"></div>
+
+		<section class="preston-article">
+			<img src="/wdd230/lesson11/images/bicycle-ride-2.jpg" alt="Man on bycicle in the highway.">
+			<h2>Bicycle Sundays Event</h2>
+			
+			<h3><em>Join us and take care of the planet!</em></h3>
+			
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est mollitia tempore 
+			cupiditate ratione sit sint omnis quod animi suscipit, iure vero vel pariatur, odit
+			aliquid laboriosam? Veritatis nihil deleniti est! Lorem ipsum dolor sit amet, 
+			consectetur adipisicing elit. Nisi hic, voluptatum quasi, eaque aliquam sint doloribus
+			earum pariatur vel eius laudantium blanditiis dolores repellendus nesciunt
+			reprehenderit, officiis non. Illum, animi?</p>
+
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est mollitia tempore 
+			cupiditate ratione sit sint omnis quod animi suscipit, iure vero vel pariatur, odit
+			aliquid laboriosam? Veritatis nihil deleniti est! Lorem ipsum dolor sit amet, 
+			consectetur adipisicing elit. Nisi hic, voluptatum quasi, eaque aliquam sint doloribus
+			earum pariatur vel eius laudantium blanditiis dolores repellendus nesciunt
+			reprehenderit, officiis non. Illum, animi?</p>
+		</section>
+
+		<section class="contact-info">
+			<img class="map-img" src="/wdd230/lesson11/images/preston-map.jpeg" alt="Preston map">
+			
+			<div class="written-info">
+				<h3>Contact Information</h3>
+				<div class="contact">
+					<p><img src="/wdd230/lesson11/images/location-icon.png" alt="Location icon."> 30 N 1st E</p>
+					<p>Preston ID 83263</p>
+					<p>&#128383; 555-555-555</p>
+					<p>&#9993; clear-weather@cw.com</p>
+				</div>
+
+				<div class="social">
+					<a href="https://www.facebook.com/" target="_blank"><img src="/wdd230/lesson11/images/facebook-logo.png" alt="Facebook logo."></a>
+					<a href="https://twitter.com/?lang=eng" target="_blank"><img src="/wdd230/lesson11/images/twitter-logo.png" alt="Twitter logo."></a>
+					<a href="https://www.instagram.com/?hl=en" target="_blank"><img src="/wdd230/lesson11/images/instagram-logo.png" alt="Instagram logo."></a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy;Clear Weather | Attributions | Angel Lugo Tehuitzil</p>
+		<p><a href="/wdd230/lesson11/home-wireframes.html" target="_blank">Home Wireframes Page</a></p>
+		<span></span>
+	</footer>
+
+    <script src="/wdd230/lesson11/js/towns-info.js"></script>
+	<script src="/wdd230/lesson11/js/clear-weather.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script>WebFont.load({ google: {families: ["Oswald:500", "Poppins"]} });</script>
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Clear Weather | Real Time Weather</title>
+
+	<link rel="shortcut icon" href="/wdd230/clear-favicon.ico">
+	<link rel="stylesheet" href="/wdd230/css/normalize.css">
+	<link rel="stylesheet" href="/wdd230/lesson11/css/weather-small.css">
+	<link rel="stylesheet" href="/wdd230/lesson11/css/weather-medium.css">
+	<link rel="stylesheet" href="/wdd230/lesson11/css/weather-large.css">
+</head>
+
+<body>
+	<section class="announcement">
+		<p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+	</section>
+
+	<header>
+		<img src="/wdd230/lesson11/images/clear_weather_logo2.png" alt="Clear Weather logo">
+		<h3>Weather Information Clear and Simple</h3>
+	</header>
+
+	<nav>
+		<ul class="responsive-nav">
+			<li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+			<li><a href="/wdd230/lesson11/index.html">Home</a></li>
+			<li class="active"><a href="/wdd230/lesson11/preston.html">Preston</a></li>
+			<li><a href="#">Soda Springs</a></li>
+			<li><a href="#">Fish Haven</a></li>
+			<li><a href="/wdd230/lesson11/stormcenter.html">Storm Center</a></li>
+			<li><a href="/wdd230/lesson11/gallery.html">Gallery</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<h1>Preston Idaho</h1>
+		<section class="preston-hero">
+			
+			<picture>
+				<source srcset="/wdd230/lesson11/images/hero_landscape_640.jpg" media="(max-width: 540px)">
+				<source srcset="/wdd230/lesson11/images/hero_landscape_1280.jpg" media="(max-width: 1000px)">
+				<img src="/wdd230/lesson11/images/hero_landscape_1920.jpg" alt="Clear sky landscape photo">
+			</picture>
+
+			<div class="weather-summary">
+				<h3>Weather Summary</h3>
+				<div class="info-name">
+					<p>Currently:</p>
+					<p>High:</p>
+					<p>Wind Chill:</p>
+					<p>Humidity:</p>
+					<p>Wind Speed:</p>
+				</div>
+
+				<div class="actual-info">
+					<p><span id="condition">Sunny</span></p>
+					<p><span id="temp">10</span> °F</p> <!--Temperature-->
+					<p><span id="wind-chill">N/A</span></p> <!--Wind Chill-->
+					<p><span id="humidity">55</span> %</p>
+					<p><span id="mph">25</span> mph</p> <!--Wind Speed-->
+				</div>
+			</div>
+		</section>
+		
+		<section class="five-day">
+			<h2>5 Day Forecast</h2>
+
+			<div class="forecast-info">
+				<div class="forecast-day">
+					<p id="day0">Wed</p>
+					<p id="day1">Thu</p>
+					<p id="day2">Fri</p>
+					<p id="day3">Sat</p>
+					<p id="day4">Sun</p>
+				</div>
+
+				<div class="forecast-image">
+					<img id="img0" src="/wdd230/lesson11/images/sun-icon.png" alt="Sun icon">
+					<img id="img1" src="/wdd230/lesson11/images/sun-icon.png" alt="Sun icon">
+					<img id="img2" src="/wdd230/lesson11/images/sun-icon.png" alt="Sun icon">
+					<img id="img3" src="/wdd230/lesson11/images/sun-icon.png" alt="Sun icon">
+					<img id="img4" src="/wdd230/lesson11/images/sun-icon.png" alt="Sun icon">
+				</div>
+
+				<div class="forecast-temperature">
+					<p id="forTemp0">89 °F</p>
+					<p id="forTemp1">87 °F</p>
+					<p id="forTemp2">78 °F</p>
+					<p id="forTemp3">75 °F</p>
+					<p id="forTemp4">72 °F</p>
+				</div>
+			</div>
+		</section>
+		
+		<section class="preston-article">
+
+			<picture>
+				<source srcset="/wdd230/lesson11/images/fun-while-raining-small.jpg" media="(max-width: 1000px)">
+				<img src="/wdd230/lesson11/images/fun-while-raining-large.jpg" alt="Girl happy while raining.">
+			</picture>
+			
+			<h2>Fun Things to Do on a Rainy Day at Home</h2>
+			<h3><em>By Angel L T...</em></h3>
+			
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque harum ipsa animi, totam,
+			at quo eligendi fugiat reprehenderit itaque officiis dolorem praesentium hic illo deserunt
+			saepe error porro, adipisci eum! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+			Quisquam, nisi nesciunt doloremque neque cupiditate, voluptatem sequi impedit odit optio 
+			corrupti atque et obcaecati eos error ut, repudiandae qui fugiat odio?</p>
+
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque harum ipsa animi, totam,
+			at quo eligendi fugiat reprehenderit itaque officiis dolorem praesentium hic illo deserunt
+			saepe error porro, adipisci eum! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+			Quisquam, nisi nesciunt doloremque neque cupiditate, voluptatem sequi impedit odit optio 
+			corrupti atque et obcaecati eos error ut, repudiandae qui fugiat odio?</p>
+
+		</section>
+
+		<section class="contact-info">
+			<img class="map-img" src="/wdd230/lesson11/images/preston-map.jpeg" alt="Preston map">
+			
+			<div class="written-info">
+				<h3>Contact Information</h3>
+				<div class="contact">
+					<p><img src="/wdd230/lesson11/images/location-icon.png" alt="Location icon."> 30 N 1st E</p>
+					<p>Preston ID 83263</p>
+					<p>&#128383; 555-555-555</p>
+					<p>&#9993; clear-weather@cw.com</p>
+				</div>
+
+				<div class="social">
+					<a href="https://www.facebook.com/" target="_blank"><img src="/wdd230/lesson11/images/facebook-logo.png" alt="Facebook logo."></a>
+					<a href="https://twitter.com/?lang=eng" target="_blank"><img src="/wdd230/lesson11/images/twitter-logo.png" alt="Twitter logo."></a>
+					<a href="https://www.instagram.com/?hl=en" target="_blank"><img src="/wdd230/lesson11/images/instagram-logo.png" alt="Instagram logo."></a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy;Clear Weather | Attributions - Weather data from: <a href="https://openweathermap.org/" target="_blank">openweathermap.org</a> | Angel Lugo Tehuitzil</p>
+		<span></span>
+	</footer>
+
+	<script src="/wdd230/lesson11/js/clear-weather.js"></script>
+	<script src="/wdd230/lesson11/js/preston-weather.js"></script>
+	<script src="/wdd230/lesson11/js/windchill.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script>WebFont.load({ google: {families: ["Oswald:500", "Poppins"]} });</script>
+</body>
+
+</html>
