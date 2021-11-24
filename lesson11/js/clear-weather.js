@@ -30,3 +30,8 @@ if (dayName == "Friday") {
     document.getElementsByClassName("announcement")[0].classList.toggle("is-friday")
 }
 //#endregion
+
+// Code to change range in input type "range"
+function changeRating(rating) {
+    document.getElementById("rating").innerHTML = rating;
+}
