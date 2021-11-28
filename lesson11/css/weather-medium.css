@@ -33,7 +33,7 @@
 
   .article img:nth-child(7) { /*Preston (Second Image)*/
     float: left;
-    margin: 0 2rem 0 0;
+    margin: 0 2rem 1.5rem 0;
   }
   
   .article #soda-a-img1 { /*Soda Springs*/
