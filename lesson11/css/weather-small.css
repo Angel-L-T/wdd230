@@ -75,6 +75,7 @@ nav ul {
 
 nav ul li {
   color: whitesmoke;
+  text-shadow: 1px 1px 1px black;
 }
 
 nav ul li a {
@@ -211,18 +212,37 @@ main {
 
 /*End of preston five day forecast*/
 
-/*Start of preston article*/
-.preston-article {
+/*Start of article CSS*/
+.article {
   background-color: #caf0f8;
   padding: 2rem;
   margin-top: 5rem;
   border-radius: 10px;
 }
 
-.preston-article img {
+.article img {
   max-width: 250px;
   margin: 0;
   box-shadow: black 7px 7px 20px 3px;
+}
+
+.article h3 {
+  margin-bottom: 0;
+}
+
+.article p {
+  margin-top: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.article iframe { /*Only for home page*/
+  max-width: 100%;
+}
+
+.article #fish-a-img1 { /*Fish Haven*/
+  max-width: 100%;
+  margin: 1rem;
+  margin-left: 0;
 }
 /*End of preston article*/
 
