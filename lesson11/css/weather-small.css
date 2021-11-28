@@ -434,3 +434,22 @@ form label.top textarea {
   max-width: 100%;
   margin: 1rem 0;
 }
+
+/*----------------Events Section CSS----------------*/
+.events {
+  padding: 1rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  max-width: 560px;
+
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+
+  text-align: center;
+  background-color: lightgray;
+}
+
+.events h2 {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #006da8;
+}
