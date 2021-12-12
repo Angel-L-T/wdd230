@@ -1,0 +1,44 @@
+@media only screen and (min-width: 64rem) {
+    
+    /*#region Navigation*/
+    
+    .neza-nav li:first-child {
+        display: none;
+    }
+
+    .neza-nav li {
+        display: block;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 3fr 7fr;
+        background-color: #154FA1;
+        align-items: flex-end;
+    }
+
+    .neza-nav {
+        flex-direction: row;
+        padding: 0 2rem;
+        gap: 0;
+    }
+
+    .neza-nav li {
+        flex: 1;
+        border-radius: 10px 10px 0 0;
+    }
+    /*#endregion Navigation*/
+
+    /*#region--------HOME PAGE--------*/
+    /*Become Member Section*/
+    .become-member-button {
+        transition: font-size 0.5s, max-width 0.5s;
+    }
+    
+    .become-member-button:hover {
+        font-size: 2.5rem;
+        max-width: 11rem;
+        transition: font-size 0.5s, max-width 0.5s;
+    }
+    /*#endregion--------HOME PAGE--------*/
+}

@@ -1,0 +1,28 @@
+@media only screen and (min-width: 35rem) {
+    
+    /*#region--------HOME PAGE--------*/
+    /*Our members section*/
+    .local-business {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin-top: 2rem;
+        align-items: center;
+    }
+    
+    .principal-businesses div:nth-child(odd) img {
+        grid-column: 2;
+    }
+    
+    .principal-businesses div:nth-child(odd) div {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    /*Contact info section*/
+    .contact-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    /*#endregion--------HOME PAGE--------*/
+}
