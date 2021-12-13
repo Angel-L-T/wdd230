@@ -20,7 +20,7 @@ function weatherInfo () {
 
             temp.innerHTML = `${currentTemp.temp} °F`;
             condition.innerHTML = currentTemp.weather[0].main;
-            humidity.innerHTML = `${currentTemp.humidity}`
+            humidity.innerHTML = `${currentTemp.humidity} %`
 
             dailyTemp.forEach((element, i) => {
                 let forecastDay = new Date(element.dt * 1000);
