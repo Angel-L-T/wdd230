@@ -40,5 +40,18 @@
         max-width: 11rem;
         transition: font-size 0.5s, max-width 0.5s;
     }
+
+    /*Events and Weather*/
+    .events-weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 6rem;
+    }
+
+    /*Weather*/
+    .weather {
+        min-width: 600px;
+    }
+    
     /*#endregion--------HOME PAGE--------*/
 }

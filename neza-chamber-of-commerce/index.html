@@ -29,7 +29,7 @@
 		</nav>
 	</header>
 	
-	<main>
+	<main class="home-page">
 		<div class="home-hero">
 			<picture id="home-hero">
 				<source srcset="/wdd230/neza-chamber-of-commerce/images/neza-hero-small.jpg" media="(max-width: 540px)">
@@ -38,8 +38,8 @@
 			</picture>
 		</div>
 
+		<h1>Home Page</h1>
 		<section class="purpose">
-			<h1>Home Page</h1>
 			<h2>Our Purpose and Goals</h2>
 
 			<p>Lorem ipsum, dolor sit amet consectetur adipisicing 
@@ -90,10 +90,42 @@
 			<div class="become-member-button"><a href="/wdd230/neza-chamber-of-commerce/join.html">Join!</a></div>
 		</section>
 
-		<section class="upcoming-events">
-			<h2>Upcoming Events:</h2>
-			<ul id="events"></ul>
-		</section>
+		<div class="events-weather">
+			<section class="upcoming-events">
+				<h2>Upcoming Events:</h2>
+				<ul id="events"></ul>
+			</section>
+
+			<section class="weather">
+				<div class="weather-info"">
+					<h3>Weather</h3>
+					<p>Temperature: <span id="temperature">50 °F</span></p>
+					<p>Condition: <span id="condition">Clear</span></p>
+					<p>Humidity: <span id="humidity">21 %</span></p>
+				</div>
+
+				<h3>Three Day Forecast</h3>
+				<div class="forecast">
+					<div class="forecast-day">
+						<p id="day1">Mon</p>
+						<p id="day2">Tue</p>
+						<p id="day3">Wed</p>
+					</div>
+	
+					<div class="forecast-image">
+						<img id="img1" src="/wdd230/lesson11/images/sun-icon.png" alt="Sun icon">
+						<img id="img2" src="/wdd230/lesson11/images/sun-icon.png" alt="Sun icon">
+						<img id="img3" src="/wdd230/lesson11/images/sun-icon.png" alt="Sun icon">
+					</div>
+	
+					<div class="forecast-temperature">
+						<p id="forTemp1">89 °F</p>
+						<p id="forTemp2">87 °F</p>
+						<p id="forTemp3">78 °F</p>
+					</div>
+				</div>
+			</section>
+		</div>
 
 		<div class="contact-info">
 			<div>
@@ -118,6 +150,8 @@
 		<p>Last Modified: <span id="last-modified"></span></p>
 	</footer>
 
+	<script src="/wdd230/neza-chamber-of-commerce/js/weather.js"></script>
+	<script src="/wdd230/neza-chamber-of-commerce/js/events.js"></script>
 	<script src="/wdd230/neza-chamber-of-commerce/js/chamber.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 	<script>WebFont.load({ google: {families: ["Roboto Condensed:700", "Rubik"]} });</script>
