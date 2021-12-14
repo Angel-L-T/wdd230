@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home | Nezahualcoyotl Chamber of Commerce</title>
+	<title>The City | Nezahualcóyotl Chamber of Commerce</title>
 
 	<link rel="stylesheet" href="/wdd230/css/normalize.css">
 
@@ -15,13 +15,13 @@
 <body>
 	<header>
 		<div class="neza-logo">
-			<a href="/wdd230/neza-chamber-of-commerce/index.html"><img src="/wdd230/neza-chamber-of-commerce/images/neza-logo-final.png" alt="Nezahualcoyotl Chamber of Commerce Logo"></a>
+			<a href="/wdd230/neza-chamber-of-commerce/index.html"><img src="/wdd230/neza-chamber-of-commerce/images/neza-logo-final.png" alt="Nezahualcóyotl Chamber of Commerce Logo"></a>
 		</div>
 		<nav>
 			<ul class="neza-nav">
 				<li><a href="#" id="menu">&#9776; Menu</a></li>
 				<li><a href="/wdd230/neza-chamber-of-commerce/index.html">Home</a></li>
-				<li class="active"><a href="/wdd230/neza-chamber-of-commerce/city.html">Nezahualcoyotl</a></li>
+				<li class="active"><a href="/wdd230/neza-chamber-of-commerce/city.html">Nezahualcóyotl</a></li>
 				<li><a href="/wdd230/neza-chamber-of-commerce/join.html">Join</a></li>
 				<li><a href="/wdd230/neza-chamber-of-commerce/directory.html">Directory</a></li>
 				<li><a href="/wdd230/neza-chamber-of-commerce/contact.html">Contact</a></li>
@@ -29,15 +29,62 @@
 		</nav>
 	</header>
 	
-	<main>
-		<div class="placeholder">Placeholder</div>
+	<main class="city">
+		<h1>Nezahualcóyotl</h1>
+		<section class="city-demographic">
+			<h2>About the city</h2>
+			
+			<div>
+				<img src="/wdd230/neza-chamber-of-commerce/images/city-neza-from-sky.jpg" alt="">
+				<p>The city of Nezahualcóyotl is nearly coextensive with the municipality of Nezahualcóyotl
+				with 99.46% of the municipality's population of 1,110,565 (as of 2010) living within the city
+				limits. Only six localities are considered to be outside the city proper: Colonia Gustavo Baz
+				Prada, Ciudad Jardín, Relleno Sanitario Nezahualcóyotl Segundo, Polígonos, Escuela Laura Riojas
+				de Colosio and 17 de Junio, but the city functions as the local government for these communities.
+				It is the second-most populous municipality in the State of Mexico, just below Ecatepec, and
+				the ninth-largest in the country. It lies at 2,220 meters above sea level.</p>
+			</div>
+			
+			<div>
+				<img src="/wdd230/neza-chamber-of-commerce/images/city-hall.jpg" alt="">
+				<p>The municipality is located in the east of the Valley of Mexico and is part of Greater Mexico 
+				City. The municipality borders the municipalities of Ecatepec de Morelos, La Paz, Chimalhuacán and
+				San Salvador Atenco in the State of Mexico. To the west and south, it borders the borough of 
+				Gustavo A. Madero, Venustiano Carranza, Iztapalapa, and Iztacalco of Mexico City, and at the
+				northwest, it borders the remains of the Federal Zone of Lake Texcoco. Because of its urban nature, 
+				there is no agriculture in the area and livestock production is minimal, restricted to the very 
+				northeastern edges of the municipality and only for self-consumption. The economy of the municipality 
+				is mostly based on commerce, employing over 90% of the population. The second major employment source
+				is industry, mostly microindustries. <em>(Source: Wikipedia. Check out our <a href="/wdd230/neza-chamber-of-commerce/attributions.html">attributions page</a>)</em></p>
+			</div>
+		</section>
+
+		<section class="upcoming-events">
+			<h2>Upcoming Events:</h2>
+			<ul id="events"></ul>
+		</section>
+
+		<section class="neza-history">
+			<h2>More about Nezahualcóyotl city.</h2>
+			<p><em>Ciudad Nezahualcóyotl is the prototypical informal settlement of metropolitan Mexico City. Built just over
+			the line from the Distrito Federal in the Estado de México, Neza—as it is commonly called—looms large in the
+			imagination of the city. From its beginnings as an illegally developed, planned, and built settlement in the late
+			forties, Neza has served as a powerful image of self-built, so-called “informal” urbanism.
+			(Source: National Geographic.)</em></p>
+
+			<img src="/wdd230/neza-chamber-of-commerce/images/city-coyote.jpg" alt="">
+
+			<p>Do you want to know more about the history of Nezahualcoyótl? Check out the article, 
+			<b>"Scenes from Neza: Mexico’s Self-Made City,"</b> from National Geographic: <a target="_blank" href="https://blog.nationalgeographic.org/2015/03/26/scenes-from-neza-mexicos-self-made-city/">nationalgeographic.org</a></p>
+		</section>
 	</main>
 
 	<footer>
-		<p>&copy;Nezahualcoyotl Chamber of Commerce | <a href="/wdd230/neza-chamber-of-commerce/attributions.html">Attributions</a></p>
+		<p>&copy;Nezahualcóyotl Chamber of Commerce | <a href="/wdd230/neza-chamber-of-commerce/attributions.html">Attributions</a></p>
 		<p>Last Modified: <span id="last-modified"></span></p>
 	</footer>
 
+	<script src="/wdd230/neza-chamber-of-commerce/js/events.js"></script>
 	<script src="/wdd230/neza-chamber-of-commerce/js/chamber.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 	<script>WebFont.load({ google: {families: ["Roboto Condensed:700", "Rubik"]} });</script>

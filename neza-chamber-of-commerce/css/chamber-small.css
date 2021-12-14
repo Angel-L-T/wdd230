@@ -34,6 +34,14 @@ h3 {
     text-shadow: 1px 1px 1px black;
 }
 
+p {
+    line-height: 1.5rem;
+}
+
+main a {
+    color: #41CF5B;
+}
+
 .placeholder {
     background-color: grey;
     color: white;
@@ -141,6 +149,7 @@ footer a, #last-modified {
 .home-page h1 {
     text-align: left;
     max-width: 960px;
+    padding: 0 1rem;
     margin: 2rem auto 0;
 }
 /*#region Hero*/
@@ -153,17 +162,18 @@ footer a, #last-modified {
     max-width: 100%;
     filter: contrast(120%)
 }
-
-.purpose {
-    max-width: 660px;
-    margin: 5rem auto 0;
-}
 /*#endregion Hero*/
 
 /*#region Purpose Section*/
 .purpose h2 {
-    max-width: 20rem;
+    max-width: 320px;
     margin: 0 auto;
+}
+
+.purpose {
+    max-width: 660px;
+    margin: 5rem auto 0;
+    padding: 0.5rem;
 }
 /*#endregion Purpose Section*/
 
@@ -171,7 +181,8 @@ footer a, #last-modified {
 
 .principal-businesses {
     max-width: 960px;
-    margin: 9rem auto 0;
+    margin: 5rem auto 0;
+    padding: 0.5rem;
 }
 
 .principal-businesses h2 {
@@ -179,9 +190,17 @@ footer a, #last-modified {
     max-width: 11rem;
 }
 
+.local-business {
+    margin-top: 3rem;
+}
+
 .local-business img {
     max-width: 100%;
     box-shadow: 1px 1px 10px black;
+}
+
+.local-business h3 {
+    margin-top: 0;
 }
 
 .local-business div {
@@ -192,7 +211,7 @@ footer a, #last-modified {
 /*#region Become Member Section*/
 
 .become-member {
-    margin: 9rem auto 0;
+    margin: 5rem auto 0;
     padding: 2rem;
     max-width: 660px;
     background-color: #F2F0FF;
@@ -229,7 +248,7 @@ footer a, #last-modified {
 
 .contact-info {
     background-color: #2572E3;
-    margin: 9rem auto 0;
+    margin: 5rem auto 0;
     align-items: center;
 }
 
@@ -259,7 +278,7 @@ footer a, #last-modified {
 /*#region Events and Weather*/
 /*Events and Weather*/
 .events-weather {
-    margin: 9rem auto 0;
+    margin: 5rem auto 0;
     max-width: 1300px;
     justify-items: center;
 }
@@ -327,3 +346,56 @@ footer a, #last-modified {
 
 /*#endregion Events and Weather*/
 /*#endregion--------HOME PAGE--------*/
+
+/*#region--------NEZA / CITY PAGE--------*/
+
+.city h1 {
+    text-align: left;
+    max-width: 960px;
+    padding: 0 1rem;
+    margin: 2rem auto 0;
+}
+
+/*About the city section*/
+.city-demographic {
+    padding: 1rem;
+}
+
+.city-demographic p {
+    text-align: justify;
+}
+
+.city-demographic div {
+    margin-top: 3rem;
+}
+
+.city-demographic img {
+    max-width: 100%;
+}
+
+.city-demographic h2 {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+/*More About Neza*/
+.neza-history {
+    padding: 1rem;
+    margin: 5rem 0;
+}
+
+.neza-history img {
+    max-width: 100%;
+}
+
+.neza-history h2 {
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+/*City Events (Most CSS rules on HOMEPAGE REGION)*/
+.city .upcoming-events {
+    margin: 5rem 1rem 0;
+}
+
+/*#endregion--------NEZA / CITY PAGE--------*/

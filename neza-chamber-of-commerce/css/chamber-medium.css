@@ -25,4 +25,51 @@
         grid-template-columns: 1fr 1fr;
     }
     /*#endregion--------HOME PAGE--------*/
+
+    /*#region--------NEZA / CITY PAGE--------*/
+
+    /*About the city section*/
+    .city-demographic{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .city-demographic img {
+        max-width: 400px;
+    }
+
+    .city-demographic div:nth-child(2) img {
+        float: left;
+        padding: 0 2rem 2rem 0;
+    }
+
+    .city-demographic div:nth-child(3) img {
+        float: right;
+        padding: 0 0 0 2rem;
+    }
+
+    /*More About Neza*/
+    .neza-history {
+        padding: 0.5rem;
+        margin: 5rem auto;
+
+        max-width: 960px;
+    }
+
+    .neza-history img {
+        max-width: 500px;
+        padding: 2rem 0;
+    }
+
+    .neza-history h2 {
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    /*City Events (Most CSS rules on HOMEPAGE REGION)*/
+    .city .upcoming-events {
+        margin: 5rem auto 0;
+    }
+
+    /*#endregion--------NEZA / CITY PAGE--------*/
 }
