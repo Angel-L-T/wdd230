@@ -1,0 +1,52 @@
+{
+    "businesses": [
+        {
+            "name": "METRO",
+            "contact": ["Av Chimalhuacán, Benito Juárez, 57000 Nezahualcóyotl, Méx."],
+            "logo": "N/A",
+            "website": "N/A"
+        },
+
+        {
+            "name": "Charly Pizza",
+            "contact": ["Av Chimalhuacán 503, Benito Juárez, 57000 Nezahualcóyotl, Méx.", "55-57-31-7443"],
+            "logo": "N/A",
+            "website": "N/A"
+        },
+
+        {
+            "name": "El Diamante Negro",
+            "contact": ["Av. 4a. Avenida 225, Benito Juárez, 57000 Nezahualcóyotl, Méx.", "55-57-34-4035"],
+            "logo": "N/A",
+            "website": "N/A"
+        },
+
+        {
+            "name": "Pastelerías Esperanza",
+            "contact": ["C. El Capiro 297, Benito Juárez, 57000 Nezahualcóyotl, Méx.", "55-62-85-0433"],
+            "logo": "esperanza-logo.jpg",
+            "website": "https://www.esperanza.mx/"
+        },
+
+        {
+            "name": "Panificadora y Pastelería Los Arcos",
+            "contact": ["Ciclamores 86, La Perla, 57820 Nezahualcóyotl, Méx.", "55-57-42-6117"],
+            "logo": "los-arcos.jpg",
+            "website": "https://www.esperanza.mx/"
+        },
+
+        {
+            "name": "Jalapeños Burger",
+            "contact": ["Av. Floresta, Reforma, 57840 Nezahualcóyotl, Méx.", "55-96-89-54-23"],
+            "logo": "N/A",
+            "website": "N/A"
+        },
+
+        {
+            "name": "Modatelas la Aurora",
+            "contact": ["Av. Dr. Gustavo Baz 296, Benito Juárez, 57000 Nezahualcóyotl, Méx.", "55-57-30-1385"],
+            "logo": "modatelas-logo.jpg",
+            "website": "https://www.modatelas.com.mx/"
+        }
+    ]
+}
