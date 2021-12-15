@@ -29,15 +29,103 @@
 		</nav>
 	</header>
 	
-	<main>
-		<div class="placeholder">Placeholder</div>
+	<main class="join">
+
+		<h1>Join</h1>
+		<div class="join-message">
+			<h2>Join Now!</h2>
+			<p>Do you want to get your business widely known? Join the chamber now and get a space where
+			people can know about your business and what you have to offer. Plus, you can get support from 
+			the chamber to improve your business and make it grow. The purpose of the chamber is the success 
+			of our members.</p>
+		</div>
+
+		<form method="get" action="/wdd230/neza-chamber-of-commerce/thanks.html">
+			<fieldset>
+				<legend>Member Information</legend>
+				<label class="top">First Name* <input type="text" name="fname" required></label>
+				<label class="top">Last Name* <input type="text" name="lname" required></label>
+				<label class="top">Title <input type="text" name="title"></label>
+				<label class="top">Email* <input type="email" name="email" required></label>
+				<label class="top">Cell Phone <input type="tel" name="cellphone"></label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Business Information</legend>
+				<label class="top">Business Name* <input type="text" name="bname" required></label>
+				<label class="top">Business Address <input type="text" name="baddress"></label>
+				<label class="top">Business Website <input type="url" name="bwebsite"></label>
+				<label class="top">Business Description <textarea name="bdescription" cols="29" rows="10"></textarea></label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Membership</legend>
+				<label class="top">Membership Selection 
+					<select id="membership-selection" name="membership">
+						<option value="" selected disabled>Select Membership</option>
+						<option value="non-profit">Non-profit</option>
+						<option value="bronze">Bronze</option>
+						<option value="silver">Silver</option>
+						<option value="gold">Gold</option>
+					</select>
+				</label>
+				<div class="membership-description">
+					<div class="non-profit">
+						<ul>
+							<li>Get a place in our directory.</li>
+							<li>Access to our monthly basic training sessions to learn how to make your cause known.</li>
+							<li>One social media announcement post on our principal pages every quarter.</li>
+						</ul>
+						<span class="membership-price">Annual Subscription: $100</span>
+					</div>
+
+					<div class="bronze">
+						<ul>
+							<li>Get a place in our directory.</li>
+							<li>Access to our monthly basic or medium-level training sessions to learn how to make your business known.</li>
+							<li>One social media announcement post on our principal pages every trimester.</li>
+							<li>10% Discount on our merch services for your business (calendars, t-shirts, business cards, etc).</li>
+						</ul>
+						<span class="membership-price">Annual Subscription: $200</span>
+					</div>
+
+					<div class="silver">
+						<ul>
+							<li>Get a place in our directory.</li>
+							<li>Access to our monthly basic, medium-level, or advanced training sessions to learn how to make your business known.</li>
+							<li>Luncheon tickets for our training sessions.</li>
+							<li>One social media announcement post on our principal pages every two months.</li>
+							<li>20% Discount on our merch services for your business (calendars, t-shirts, business cards, etc).</li>
+						</ul>
+						<span class="membership-price">Annual Subscription: $400</span>
+					</div>
+
+					<div class="gold">
+						<ul>
+							<li>Get a place in our directory.</li>
+							<li>Access to all of our monthly training sessions to learn how to make your business widely known 
+							(includes our premium training sessions).</li>
+							<li>Luncheon tickets for our training sessions.</li>
+							<li>One monthly social media announcement post on our principal pages.</li>
+							<li>A space on our member's section on our website home page.</li>
+							<li>30% Discount on our merch services for your business (calendars, t-shirts, business cards, etc).</li>
+						</ul>
+						<span class="membership-price">Annual Subscription: $1000</span>
+					</div>
+				</div>
+			</fieldset>
+
+			<div class="button-container"><input type="submit" value="Join the Chamber" class="submit-button"></div>
+			
+		</form>
 	</main>
 
 	<footer>
-		<p>&copy;Nezahualcóyotl Chamber of Commerce | <a href="/wdd230/neza-chamber-of-commerce/attributions.html">Attributions</a></p>
+		<p>&copy;Nezahualcóyotl Chamber of Commerce, <span id="current-year"></span> | <a href="/wdd230/neza-chamber-of-commerce/attributions.html">Attributions</a></p>
 		<p>Last Modified: <span id="last-modified"></span></p>
 	</footer>
 
+	<script src="/wdd230/neza-chamber-of-commerce/js/form.js"></script>
 	<script src="/wdd230/neza-chamber-of-commerce/js/chamber.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 	<script>WebFont.load({ google: {families: ["Roboto Condensed:700", "Rubik"]} });</script>

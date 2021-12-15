@@ -72,4 +72,17 @@
     }
 
     /*#endregion--------NEZA / CITY PAGE--------*/
+
+    /*#region--------JOIN PAGE--------*/
+
+    /*#region General Form Style*/
+
+    textarea {
+        width: 500px;
+    }
+
+    /*#endregion General Form Style*/
+
+    /*#endregion--------JOIN PAGE--------*/
+
 }
