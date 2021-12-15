@@ -397,6 +397,7 @@ footer a, #last-modified {
 .join-message {
     max-width: 760px;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 .join-message h2 {
