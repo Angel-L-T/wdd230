@@ -1,4 +1,3 @@
-//#region -----------DECLARING FUNCTIONS-----------
 
 function upcomingEvents () {
     const eventsUrl = "https://angel-l-t.github.io/wdd230/neza-chamber-of-commerce/json/neza-events.json";
@@ -23,10 +22,5 @@ function upcomingEvents () {
   );
 }
 
-//#endregion -----------DECLARING FUNCTIONS-----------
-
-//#region -----------CALLING FUNCTIONS-----------
-
 upcomingEvents();
 
-//#endregion -----------CALLING FUNCTIONS-----------
