@@ -449,6 +449,18 @@ legend {
     display: block;
 }
 
+.top input:required {
+border: #154FA1 solid 2px;
+}
+
+.top input:not(:placeholder-shown):required {
+border: #E32232 solid 2px;
+}
+
+.top input:required:valid {
+border: #41CF5B solid 2px;
+}
+
 .button-container {
     display: flex;
 }
@@ -466,7 +478,14 @@ legend {
     padding: 1rem;
     margin-top: 1rem;
     border-radius: 10px;
-    /* display: none; */
+    display: none;
+}
+
+.membership-description div h2 {
+    color: black;
+    text-shadow: none;
+    border: none;
+    margin: 0;
 }
 
 .membership-description ul {
@@ -484,10 +503,14 @@ legend {
     color: white;
 }
 
+.membership-description .non-profit h2 {
+    color: white;
+}
+
 .bronze {
     border: 2px solid #A85C00;
     background-color: #F88E0D;
-    color: white;
+    color: black;
 }
 
 .silver {

@@ -43,16 +43,16 @@
 		<form method="get" action="/wdd230/neza-chamber-of-commerce/thanks.html">
 			<fieldset>
 				<legend>Member Information</legend>
-				<label class="top">First Name* <input type="text" name="fname" required></label>
-				<label class="top">Last Name* <input type="text" name="lname" required></label>
+				<label class="top">First Name* <input type="text" name="fname" pattern="[a-zA-Z ]{3,}" title="3 letters min, a-z A-Z." placeholder=" " required></label>
+				<label class="top">Last Name* <input type="text" name="lname" pattern="[a-zA-Z ]{3,}" title="3 letters min, a-z A-Z." placeholder=" " required></label>
 				<label class="top">Title <input type="text" name="title"></label>
-				<label class="top">Email* <input type="email" name="email" required></label>
+				<label class="top">Email* <input type="email" name="email" required placeholder="example@mail.com"></label>
 				<label class="top">Cell Phone <input type="tel" name="cellphone"></label>
 			</fieldset>
 
 			<fieldset>
 				<legend>Business Information</legend>
-				<label class="top">Business Name* <input type="text" name="bname" required></label>
+				<label class="top">Business Name* <input type="text" name="bname" pattern="[a-zA-Z ]{5,}" title="5 letters min, a-z A-Z." placeholder=" " required></label>
 				<label class="top">Business Address <input type="text" name="baddress"></label>
 				<label class="top">Business Website <input type="url" name="bwebsite"></label>
 				<label class="top">Business Description <textarea name="bdescription" cols="29" rows="10"></textarea></label>
@@ -71,6 +71,7 @@
 				</label>
 				<div class="membership-description">
 					<div class="non-profit">
+						<h2>Non-profit</h2>
 						<ul>
 							<li>Get a place in our directory.</li>
 							<li>Access to our monthly basic training sessions to learn how to make your cause known.</li>
@@ -80,6 +81,7 @@
 					</div>
 
 					<div class="bronze">
+						<h2>Bronze</h2>
 						<ul>
 							<li>Get a place in our directory.</li>
 							<li>Access to our monthly basic or medium-level training sessions to learn how to make your business known.</li>
@@ -90,6 +92,7 @@
 					</div>
 
 					<div class="silver">
+						<h2>Silver</h2>
 						<ul>
 							<li>Get a place in our directory.</li>
 							<li>Access to our monthly basic, medium-level, or advanced training sessions to learn how to make your business known.</li>
@@ -101,6 +104,7 @@
 					</div>
 
 					<div class="gold">
+						<h2>Gold</h2>
 						<ul>
 							<li>Get a place in our directory.</li>
 							<li>Access to all of our monthly training sessions to learn how to make your business widely known 
