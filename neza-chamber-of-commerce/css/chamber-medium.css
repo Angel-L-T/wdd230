@@ -1,12 +1,20 @@
 @media only screen and (min-width: 35rem) {
     
+    body {
+        font-size: 18px;
+    }
+
+    p {
+        line-height: 1.65rem;
+    }
+    
     /*#region--------HOME PAGE--------*/
     /*Our members section*/
     .local-business {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
-        margin-top: 2rem;
+        margin-top: 4rem;
         align-items: center;
     }
     
@@ -80,9 +88,26 @@
     textarea {
         width: 500px;
     }
-
     /*#endregion General Form Style*/
 
     /*#endregion--------JOIN PAGE--------*/
 
+    /*#region--------DIRECTORY PAGE--------*/
+
+    .grid-list {
+        display: flex;
+    }
+
+    #directory.grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        gap: 1.5rem;
+    }
+
+    .container.grid {
+        margin: 0;
+    }
+
+    /*#region--------DIRECTORY PAGE--------*/
 }

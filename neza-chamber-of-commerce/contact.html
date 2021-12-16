@@ -30,7 +30,58 @@
 	</header>
 	
 	<main>
-		<div class="placeholder">Placeholder</div>
+		<h1>Contact</h1>
+		<section class="contact-map">
+			<div class="contact-social">
+				<div>
+					<h2>Contact Information</h2>
+					<p><span class="icon location">&#8982;</span> Av. Carmelo Pérez, at the corner of Av. Chimalhuacan</p>
+					<p>ZIP 57000</p>
+					<p><span class="icon">&#128222;</span> 123-456-7891</p>
+					<p><span class="icon">&#9993;</span> neza-commerce@nezachamb.org</p>
+				</div>
+
+				<div>
+					<a href="https://www.facebook.com/" target="_blank"><img class="social-icon" src="/wdd230/neza-chamber-of-commerce/images/icon-facebook-60.png" alt="Facebook icon"></a>
+					<a href="https://twitter.com/?lang=eng" target="_blank"><img class="social-icon" src="/wdd230/neza-chamber-of-commerce/images/icon-twitter-60.png" alt="Twitter icon"></a>
+					<a href="https://www.youtube.com/" target="_blank"><img class="social-icon" src="/wdd230/neza-chamber-of-commerce/images/icon-youtube-60.png" alt="YouTube icon"></a>
+				</div>
+			</div>
+
+			<div class="map">
+				<iframe class="map-img"
+				width="300" height="300" 
+				style="border:0" 
+				loading="lazy" 
+				allowfullscreen
+				src="https://www.google.com/maps/embed/v1/place?q=Nezahualc%C3%B3yotl%2C%20State%20of%20Mexico%2C%20Mexico&key=AIzaSyDBrWz-KF8SdWoKGHnVCD7iCdiOCWqeD48"></iframe>
+			</div>
+		</section>
+
+		<section class="board-directors">
+			<img src="/wdd230/neza-chamber-of-commerce/images/board-of-directors.jpg" alt="People in a business meeting.">
+			<div>
+				<h2>Board of Directors</h2>
+				<ul>
+					<li>Angel L. Tehuitzil</li>
+					<li>Alan D. Lugo</li>
+					<li>Erika Castillo A.</li>
+					<li>Dylan Leon L. C.</li>
+				</ul>
+			</div>
+		</section>
+
+		<form method="get" action="/wdd230/neza-chamber-of-commerce/feedback.html">
+			<fieldset>
+				<legend>Contact Us</legend>
+				<label class="top">Name* <input type="text" name="contact-name" pattern="[a-zA-Z ]{3,}" title="3 letters min, a-z A-Z." placeholder=" " required></label>
+				<label class="top">Phone <input type="tel" name="contact-phone"></label>
+				<label class="top">Email* <input type="email" name="contact-email" required placeholder="example@mail.com"></label>
+				<label class="top">Your Message <textarea name="contact-message" cols="29" rows="10"></textarea></label>
+			</fieldset>
+
+			<div class="button-container"><input type="submit" value="Send Your Comments" class="submit-button"></div>
+		</form>
 	</main>
 
 	<footer>

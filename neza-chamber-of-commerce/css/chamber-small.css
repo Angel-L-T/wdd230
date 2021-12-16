@@ -148,7 +148,6 @@ footer a, #last-modified {
 /*#endregion Footer*/
 /*#endregion--------BASIC CSS RULES--------*/
 
-
 /*#region--------HOME PAGE--------*/
 
 /*#region Hero*/
@@ -561,16 +560,30 @@ border: #41CF5B solid 2px;
 
 /*#region--------DIRECTORY PAGE--------*/
 
-.grid-list {
-    display: flex;
+.directory-intro {
+    max-width: 760px;
+    margin: 2rem auto;
+}
+
+.directory-intro h2 {
+    max-width: 180px;
     margin: 0 auto;
+}
+
+.grid-list {
+    display: none;
+    margin: 4rem auto 0;
+    justify-content: left;
     max-width: 960px;
-    justify-content: right;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    padding: 0.5rem 0;
 }
 
 label.grid-or-list {
     display: flex;
     align-items: center;
+    padding: 0 1rem;
 }
 
 label.grid-or-list input {
@@ -578,4 +591,133 @@ label.grid-or-list input {
     padding: 0 0 0 0.75rem;
     max-width: 48px;
 }
+
+/*Directory Elements Style List*/
+#directory {
+    max-width: 960px;
+    margin: 4rem auto;
+    padding: 0.5rem;
+
+    display: block;
+}
+
+.container {
+    padding: 1rem;
+    margin: 2rem 0.5rem;
+    background-color: #F2F0FF;
+    box-shadow: 2px 2px 10px black;
+
+    text-align: left;
+}
+
+.container div {
+    padding: 1rem 0.5rem;
+    border-bottom: 2px dotted gray;
+    display: block;
+}
+
+.container img {
+    max-height: 100px;
+    max-width: 200px;
+}
+
+.container p,
+.container h3 {
+    margin: 0.5rem 0.5rem;
+}
+
+.container a {
+    margin: 2rem 0.5rem;
+}
+
+
+/*Directory Elements Style Grid*/
+
+
 /*#endregion--------DIRECTORY PAGE--------*/
+
+/*#region--------CONTACT PAGE--------*/
+
+/*Contact Social*/
+.contact-map {
+    background-color: #F2F0FF;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+.contact-map div,
+.map {
+    margin: 2rem 0;
+    align-items: center;
+}
+
+.contact-social .social-icon {
+    filter: invert(0%);
+}
+
+.contact-social h2 {
+    max-width: 270px;
+    margin: 0 auto;
+}
+
+.board-directors {
+    max-width: 780px;
+    margin: 5rem auto 0;
+    padding: 1rem;
+}
+
+.board-directors ul {
+    margin: 1.5rem auto;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    max-width: 240px;
+}
+
+.board-directors h2 {
+    max-width: 240px;
+    margin: 2rem auto 0;
+}
+
+.board-directors img {
+    max-width: 100%;
+}
+/*#endregion--------CONTACT PAGE--------*/
+
+/*#region--------ATTRIBUTIONS PAGE--------*/
+
+.attributions {
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: left;
+    max-width: 660px;
+}
+
+.attributions h2 {
+    margin-top: 4rem;
+}
+
+.attributions ul li {
+    margin: 0.5rem 0;
+}
+
+.attributions h2:nth-child(1) {
+    max-width: 80px;
+}
+
+.attributions h2:nth-child(3) {
+    max-width: 340px;
+}
+
+.attributions h2:nth-child(5) {
+    max-width: 220px;
+}
+
+.attributions h2:nth-child(7) {
+    max-width: 200px;
+}
+
+.attributions ul:nth-child(8) {
+    margin-bottom: 4rem;
+}
+/*#endregion--------ATTRIBUTIONS PAGE--------*/

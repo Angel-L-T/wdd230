@@ -55,4 +55,25 @@
     
     /*#endregion--------HOME PAGE--------*/
 
+    /*#region--------DIRECTORY PAGE--------*/
+
+    .grid-list {
+        max-width: none;
+        padding: 1rem 5rem;
+    }
+
+    #directory.grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 90%;
+    }
+    /*#endregion--------DIRECTORY PAGE--------*/
+
+    /*#region--------CONTACT PAGE--------*/
+    
+    .contact-map,
+    .board-directors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    /*#endregion--------CONTACT PAGE--------*/
 }
