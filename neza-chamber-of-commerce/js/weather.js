@@ -10,7 +10,7 @@ function weatherInfo () {
     )
     .then(
         function (weatherObject) {
-            console.table(weatherObject);  // temporary checking for valid response and data parsing
+            // console.table(weatherObject);  // temporary checking for valid response and data parsing
             let currentTemp = weatherObject["current"];
             let dailyTemp = weatherObject["daily"];
 
